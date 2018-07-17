@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/tab_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0" />
+
+    <RadioGroup
+        android:id="@+id/tabs_rg"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#eeeeee"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp" >
+
+        <RadioButton
+            android:id="@+id/tab_call"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/selector_tab"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Call" />
+
+        <RadioButton
+            android:id="@+id/tab_log"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/selector_tab"
+            android:button="@null"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Log" />
+    </RadioGroup>
+
+</LinearLayout>

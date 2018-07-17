@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CallTestDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tel_phone">Tel Number</string>
+    <string name="tel_number">Dial Times</string>
+    <string name="call_interval">End After Active(s)</string>
+    <string name="auto_receive">Auto Receive</string>
+    <string name="auto_run">Run</string>
+    <string name="auto_pause">Pause</string>
+    <string name="call_type">Call Type:</string>
+    <string name="income_time">Income Time:</string>
+    <string name="end_time">End Time:</string>
+    <string name="call_status">Call Status:</string>
+    <string name="call_out">out call</string>
+    <string name="call_in">in call</string>
+    <string name="call_succeed">Success</string>
+    <string name="call_fail">Fail</string>
+    <string name="export_log">Export Log</string>
+    <string name="clear_log">Clear Log</string>
+    <string name="null_message">Not Record</string>
+
+</resources>
